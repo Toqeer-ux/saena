@@ -1,0 +1,1263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 50px;
+}
+.navbar-nav li{
+    margin: 0 5px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-nav li a:hover{
+    color: #e2ed86;
+}
+.navbar-nav .login-btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.navbar-nav .login-btn:hover{
+    color: #e2ed86;
+    border: 1px solid #e2ed86;
+}
+.log-btn{
+    margin-left: 15px;
+    padding: 5px 0;
+}
+.navbar-toggler{
+    background-color: #979595;
+}
+.fixed-top{
+   position: absolute;
+   position: fixed;
+}
+header.sticky{
+    background-color: #282626;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../IMGS/snowy-mountains-cloudy-sky.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0 14rem;
+    min-height: 500px;
+    background-size: cover;
+}
+.hero .container{
+    z-index: 2;
+}
+.header-content img{
+    width: 180px;
+    height: auto;
+    margin-bottom: 3rem;
+}
+.header-content{
+    text-align: center;
+    color: #fff;
+}
+.header-content h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.slide-lines{
+    background: url(/IMGS/heading-line-b9133f64.svg);
+    width: 130px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    background-size:100%;
+}
+.slide-join-btn{
+    background-color:#c8cf4c;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.slide-join-btn:hover{
+    background-color: aliceblue;
+}
+/* ///////////////////////////////////////////// */
+#chose-us{
+    padding: 70px 0;
+}
+.why-chose-saena .chose-heading{
+    text-align: center;
+    margin-bottom:40px ;
+}
+.why-chose-saena .chose-heading h2{
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 25px 40px;
+    border: 5px solid #000;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+.chose-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.chose-text h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.chose-text p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.header-lines{
+    content: '';
+    width: 100px;
+    height: 20px;
+    background:url(/IMGS/heading-line-b9133f64.svg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+.chose-text-detail{
+    border: 1px solid #ccc;
+    height: 100%;
+    padding: 55px 25px 40px;
+    text-align: center;
+}
+.chose-text-detail p{
+    color: #5a5a5aad;
+}
+.chose-text-detail img{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+.chose-text-detail .chose-us-text h3{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+/* ////////////////////////////////////////////// */
+#sub{
+    background-color: #333;
+}
+.sub-heading{
+    text-align: center;
+}
+.sub-heading h4{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 5px solid #fff;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px 30px;
+    letter-spacing: 5px;
+}
+.price{
+    margin-top: 20px;
+}
+.price span{
+    color: #c8cf4c;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 5px;
+}
+.sub-heading .heading-lines{
+    background: url(/IMGS/heading-line-b9133f64.svg);
+    width: 120px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px auto;
+}
+#subscribe .sub-text{
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    padding: 65px 50px;
+    border-radius: 0;
+}
+.sub-text h3{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.sub-text p{
+    font-size: 16px;
+    color: #5a5a5aad;
+    margin: 30px 0 0 0;
+} 
+.sub-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.sub-btn button{
+background-color: #c8cf4c;
+padding: 20px 70px;
+border: none;
+font-size: 16px;
+font-weight: 700;
+border: none;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.sub-btn button:hover{
+    background-color: aliceblue;
+}
+.follow .follow-left{
+    background-color: #f3f2f2;
+    padding: 70px 0;
+    text-align: center;
+}
+.follow .follow-right{
+    background-color: #c8cf4c;
+    padding: 70px 0;
+    text-align: center;
+}
+.follow .follow-left h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 5px solid #000;
+    display: inline-block;
+    padding: 20px 40px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.follow-right .follow-content{
+    margin-bottom: 30px;
+}
+.follow .follow-right h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 5px solid #fff;
+    display: inline-block;
+    padding: 20px 40px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.follow-content h3{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.follow-sub{
+    margin-bottom: 30px;
+}
+.sign-form{
+    width: 70%;
+    margin: auto;
+}
+.sign-in{
+    margin-bottom: 20px;
+}
+.sign-form input{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px 20px;font-weight: 600;
+}
+.sign-form .sign-btn button{
+    width: 100%;
+    height: 70px;
+    background-color: #c8cf4c;
+    outline: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.sign-form .sign-btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.follow-btn{
+    width: 70%;
+    margin: auto;
+}
+.follow-btn button{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    outline: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    display: block;
+}
+.follow-btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+#about-us{
+    background-color: #ebebeb;
+}
+.about-content{
+    display: flex;
+}
+.about-title{
+    width: 15%;
+    text-align: center;
+}
+.about-title h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.about-title img{
+    margin: auto;
+    width: 70px;
+}
+.about-text{
+    width: 65%;
+}
+.about-logo{
+    width: 20%;
+}
+.about-logo img{
+    width: 220px;
+}
+/* /////////////////////////////////////////////////// */
+.carousel-title{
+    margin-bottom: 40px;
+}
+.carousel-title h2{
+    border: 5px solid #000;
+    font-size: 35px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 25px 40px;
+    letter-spacing: 5px;
+}
+.team{
+    display: flex;
+    width: 100%;
+    margin:0 auto;
+}
+.team .team-img{
+    width: 45%;
+    padding-left: 30px;
+    text-align: center;
+}
+.team .team-img img{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+.team-data{
+    width: 50%;
+    padding: 30px 30px 20px 0 ;
+}
+.team-data h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+.work{
+    margin: 25px 0;
+
+}
+.team-data .work span{
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.team-data img{
+    width: 70px;
+    height: 25px;
+}
+.carousel{
+    position: relative;
+}
+.carousel-control-prev-ico{
+    position: absolute;
+    left: 0;
+}
+.carousel-control-next-ico{
+    position: absolute;
+    right: 0;
+}
+.carousel-control-prev-ico i{
+    color: #ccc;
+    font-size: 25px;
+}
+.carousel-control-next-ico i{
+    color: #ccc;
+    font-size: 25px;
+}
+.Carousel-slider{
+    padding-top: 70px;
+}
+/* /////////////////////////////////////////////// */
+.Testimonial-slider{
+    background-color: #c8cf4c;
+    padding: 70px 0;
+}
+.Testimonial-slider{
+    position: relative;
+}
+.test-heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 5px solid #000;
+    color: #000;
+    display: inline-block;
+}
+.stars li{
+    list-style: none;
+    display: inline-block;
+}
+.stars li i{
+    color: #ed940f;
+}
+.footer{
+    background-color: #282626;
+    padding-top: 70px;
+}
+.footer-top{
+    padding-bottom: 20px;
+}
+.footer-about{
+    width: 75%;
+}
+.footer-about img{
+    width: 150px;
+}
+.footer-top .divide-line{
+    margin: 20px 0;
+}
+.footer-top .divide-line img{
+    width: 120px;
+    height: 20px;
+}
+.footer-about p{
+    color: #838181;
+    font-size: 14px;
+    line-height: normal;
+
+}
+.links h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.links ul{
+    padding: 0;
+}
+.links ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+.links ul a{
+    text-decoration: none;
+    color:#838181 ;
+    font-size: 14px;
+}
+.sign-up h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign-up p{
+    color:#838181 ;
+}
+.sign-up button{
+    padding: 10px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+.sign-up button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.sign-up button:hover{
+    background-color: #c8cf4c;
+}
+.footer-end{
+    background-color: #00000038;
+    padding: 50px 0 10px;
+}
+.footer-end-content button{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.footer-end-content button a{
+    text-decoration: none;
+    color: #838181;
+}
+.footer-end-content button a i{
+    color: #fff;
+    font-size: 20px;
+}
+.footer-end ul{
+    padding: 0;
+}
+.footer-end ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-end ul li a{
+    color: #5a5a5a;
+    font-size: 25px;
+}
+.copy p{
+    color: #838181;  
+    font-size: 13px; 
+}
+.footer-end button p{
+    margin-top: 20px;
+}
+/* /////////////////////////////////////////////////////// */
+.section{
+    padding: 70px 0;
+}
+.center{
+    text-align: center;
+}
+/* //////////////////////////////////////////// */
+@media(max-width:500px){
+    .navbar-area{
+        padding: 8px 20px;
+    }
+    .navbar-collapse li{
+        margin-bottom: 10px
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        background: green;
+        right: 20px;
+        left: 20px;
+        padding: 26px;
+        z-index: 99;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .header-content h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .header-content img{
+        width: 130px;
+    }
+    .slide-join-btn{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .why-chose-saena .chose-heading h2{
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding:10px;
+        border: 3px solid #000; 
+    }
+    .chose-text h4{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .chose-text p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .chose-text-detail{
+        padding: 30px 10px;
+    }
+    .chose-text-detail .chose-us-text h3{
+        font-size: 14px;
+    }
+    .devide{
+        margin: 30px 0;
+    }
+    .sub-heading h4{
+        font-size: 13px;
+        border: 3px solid #fff;
+    }
+    .price span{
+        font-size: 16px;
+    }
+    .chose-text-detail p{
+        font-size: 14px;
+    }
+    .sub-heading .heading-lines{
+        width: 100px;
+        height: 10px;
+    }
+    #subscribe .sub-text{
+        padding: 30px 10px;
+    }
+    .sub-text h3{
+        font-size: 14px;
+    }
+    .sub-text p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .sub-btn button{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .follow .follow-left h2{
+        font-size: 20px;
+        padding: 10px 15px;
+        letter-spacing: 2px;
+        border: 3px solid #000;
+    }
+    .follow-content h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .follow-content p{
+        font-size: 14px;
+    }
+    .sign-form{
+        width: 90%;
+    }
+    .sign-form .sign-btn button{
+        font-size: 14px;
+    }
+    .follow .follow-right h2{
+        font-size: 20px;
+        padding: 10px 15px;
+        letter-spacing: 2px;
+        border: 3px solid #fff;
+    }
+    .follow-btn{
+        width: 90%;
+    }
+    .follow-btn button{
+        font-size: 14px;
+    }
+    .about-content{
+        display: block;
+    }
+    .about-title{
+        width: 100%;
+    }
+    .about-title h2{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .about-title .divide-line{
+        margin: 15px 0;
+    }
+    .about-title img{
+        width: 60px;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    .about-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-logo{
+        display: none;
+    }
+    .carousel-title h2{
+        font-size: 20px;
+        padding: 10px 12px;
+        letter-spacing: 1px;
+        border: 3px solid #000;
+    }
+    .team{
+        display: block;
+    }
+    .team .team-img{
+        width: 100%;
+        padding: 0;
+    }
+    .team-data{
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .team-data h4{
+        font-size: 20px;
+    }
+    .team-data p{
+        font-size: 12px;
+    }
+    .Carousel-slider{
+        position: relative;
+    }
+    .Carousel-slider .carousel-control-prev, .Carousel-slider .carousel-control-next{
+        position: absolute;
+        top: 12%;
+    }
+    .line-left-side{
+        display: none;
+    }
+    .test-heading h2{
+        font-size: 20px;
+        border: 3px solid #000;
+        padding: 15px 40px;
+    }
+    .item-data p{
+        font-size: 14px;
+    }
+    .item-data{
+        margin-top: 20px;
+    }
+    .Testimonial-slider .carousel-control-prev{
+        position: absolute;
+        top: 100%;
+        left: 35%;
+        margin:30px auto;
+        font-size: 14px;
+    }
+    .Testimonial-slider .carousel-control-next{
+        position: absolute;
+        top: 100%;
+        right: 35%;
+        margin:30px auto;
+        font-size: 14px;
+    }
+    .Testimonial-slider .carousel-control-prev-icon, .Testimonial-slider .carousel-control-next-icon{
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        padding: 12px;
+    }
+    .footer-about{
+        width: 100%;
+        margin-bottom:20px;
+    }
+    .footer-about img{
+        width: 100px;
+    }
+    .footer-top .divide-line img{
+        width: 100px;
+    }
+    .footer-top .divide-line{
+        margin: 10px 0;
+    }
+    .links{
+        margin: 40px 0;
+    }
+    .links h2{
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .sign-up h2{
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+    .footer-end-content button p{
+        font-size: 12px;
+        margin-top: 8px;
+        font-weight: 800;
+    }
+    .footer-end-content button a i{
+        font-size: 16px;
+    }
+    .footer-top{
+        padding-bottom: 30px;
+    }
+    .sign-up button{
+        font-size: 14px;
+    }
+}
+@media(min-width:501px) and (max-width:768px){
+    .navbar-area{
+        padding: 8px 30px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        background: green;
+        right: 20px;
+        left: 20px;
+        padding: 26px;
+        z-index: 99;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .navbar-collapse li{
+        margin-bottom: 10px;
+    }
+    .header-content h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .header-content img{
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    .slide-join-btn{
+        padding: 14px 40px;
+        font-size: 16px;
+    }
+    .why-chose-saena .chose-heading h2{
+        font-size: 25px;
+        letter-spacing: 3px;
+        border: 3px solid #000;
+    }
+    .chose-text h4{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .chose-text p{
+        font-size: 14px;
+    }
+    .chose-text-detail{
+        width: 90%;
+        margin: auto;
+    }
+    .devide{
+        margin: 30px 0;
+    }
+    .sub-heading h4{
+        font-size: 25px;
+        border: 3px solid #fff;
+        margin-bottom: 20px;
+    }
+    .follow .follow-left h2{
+        font-size: 25px;
+        letter-spacing: 2px;
+        border: 3px solid #000;
+    }
+    #subscribe .sub-text{
+        width: 90%;
+        margin: auto;
+        padding: 60px 35px;
+    }
+    .sub-btn button{
+        padding: 20px 40px;
+        font-size: 15px;
+    }
+    .sign-form .sign-btn button{
+        font-size: 16px;
+    }
+    .follow .follow-right h2{
+        font-size: 25px;
+        letter-spacing: 2px;
+        border: 3px solid #fff;
+    }
+    .follow-btn button{
+        font-size: 16px;
+    }
+    .follow-content h3{
+        font-size: 16px;
+    }
+    .about-content{
+        display: block;
+    }
+    .about-title{
+        width: 100%;
+    }
+    .about-title h2{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .about-title img{
+        width: 60px;
+    }
+    .about-text{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .about-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-content .about-logo img{
+        display: none;
+    }
+    .carousel-title h2{
+        font-size: 25px;
+        letter-spacing: 2px;
+        border: 3px solid #000;
+    }
+    .team{
+        display: block;
+    }
+    .team .team-img{
+        width: 100%;
+        padding: 0;
+    }
+    .team-data{
+        width: 100%;
+        text-align: center;
+    }
+    .team-data h4{
+        font-size: 22px;
+    }
+    .team-data .content p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .line-left-side{
+        display: none;
+    }
+    .test-heading h2{
+        font-size: 25px;
+        letter-spacing: 1px;
+        padding: 20px 50px;
+        border: 3px solid #000;
+    }
+    .test-slider{
+        margin-top: 30px;
+    }
+    .test-slider .item-data p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer-about{
+        width: 100%;
+    }
+    .footer-about img{
+        width: 130px;
+    }
+    .links h2{
+        letter-spacing: 3px;
+    }
+    .sign-up h2{
+        letter-spacing: 2px;
+    }
+    .footer-end-content button a i{
+        font-size: 18px;
+    }
+}
+@media(min-width:769px) and (max-width:991px){
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        background: green;
+        right: 20px;
+        left: 20px;
+        padding: 26px;
+        z-index: 99;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .navbar-collapse li{
+        margin-bottom: 12px;
+    }
+    .navbar-collapse li a{
+        font-size: 15px;
+    }
+    .header-content img{
+        width: 150px;
+    }
+    .header-content h2{
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 2rem;
+    }
+    .why-chose-saena .chose-heading h2{
+        font-size: 30px;
+        border: 3px solid #000;
+        letter-spacing: 3px;
+    }
+    .chose-text h4{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .chose-text p{
+        font-size: 14px;
+    }
+    .chose-text-detail{
+        width: 90%;
+        margin: auto;
+    }
+    .devide{
+        margin: 30px 0;
+    }
+    .chose-us-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sub-heading h4{
+        font-size: 30px;
+        border: 3px solid #fff;
+        letter-spacing: 3px;
+    }
+    .price span{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .sub-heading .heading-lines{
+        margin: 10px auto;
+    }
+    .sub-text h3{
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    .sub-text p{
+        margin-top: 15px;
+    }
+    .sub-btn button{
+        padding: 20px 60px;
+    }
+    .follow .follow-left h2{
+        font-size: 30px;
+        letter-spacing: 3px;
+        border: 3px solid #000;
+    }
+    .follow-content h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .sign-form .sign-btn button{
+        font-size: 16px;
+    }
+    .follow .follow-right h2{
+        font-size: 30px;
+        border: 3px solid #fff;
+        letter-spacing: 3px;
+    }
+    .follow-btn button{
+        width: 90%;
+        margin: auto;
+    }
+    .about-logo{
+        display: none;
+    }
+    .about-text{
+        width: 70%;
+    }
+    .about-title{
+        width: 30px;
+    }
+    .carousel-title h2{
+        font-size: 30px;
+        border: 3px solid #000;
+        letter-spacing: 3px;
+    }
+    .team{
+        display: block;
+    }
+    .team .team-img{
+        width: 100%;
+    }
+    .team-data{
+        width: 100%;
+        text-align: center;
+    }
+    .line-left-side{
+        display: none;
+    }
+    .line-left-side .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .test-heading h2{
+        font-size: 30px;
+        border: 3px solid #000;
+        letter-spacing: 2px;
+    }
+    .item-data{
+        margin-top: 30px;
+    }
+    .footer-about img{
+        font-size: 130px;
+    }
+    .footer-top .divide-line{
+        margin: 10px 0;
+    }
+    .links h2{
+        letter-spacing: 2px;
+    }
+    .footer-end-content button a i{
+        font-size: 18px;
+    }
+    .footer-end{
+        padding: 50px 1px;
+    }
+}
+@media(min-width:992px) and (max-width:1100px){
+    .navbar-nav li a{
+        font-size: 12px;
+    }
+    .navbar-area{
+        padding: 8px 30px;
+    }
+    .header-content h2{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .why-chose-saena .chose-heading h2{
+        font-size: 30px;
+        border: 4px solid #000;
+    }
+    .chose-text h4{
+        margin-bottom: 5px;
+    }
+    .chose-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .chose-text-detail p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sub-heading h4{
+        font-size: 30px;
+        border: 4px solid #fff;
+        letter-spacing: 4px;
+    }
+    .chose-text-detail{
+        padding: 50px 10px 40px;
+    }
+    .follow .follow-left h2{
+        font-size: 30px;
+        border: 4px solid #000;
+    }
+    .follow .follow-right h2{
+        font-size: 30px;
+        border: 4px solid #fff;
+    }
+    #subscribe .sub-text{
+        padding: 60px 20px;
+    }
+    .sign-form .sign-btn button{
+        font-size: 16px;
+    }
+    .follow-content h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .follow-content p{
+        font-size: 14px;
+    }
+    .follow-btn button{
+        font-size: 16px;
+    }
+    .about-text{
+        padding: 0 30px;
+    }
+    .about-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-logo img{
+        width: 170px;
+    }
+    .carousel-title h2{
+        font-size: 30px;
+        border: 3px solid #000;
+        letter-spacing: 3px;
+    }
+    .team-data{
+        padding: 30px 30px 20px 30px;
+    }
+    .team-data p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .test-heading h2{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .test-slider .item-data p{
+        font-size: 14px;
+    }
+    .footer-end-content button a i{
+        font-size: 18px;
+    }
+}
+@media(min-width:1101px) and (max-width:1250px){
+    .navbar-nav ul li{
+        margin: 0 5px;
+    }
+    .navbar-nav ul li a{
+        font-size: 12px;
+    }
+    .header-content h2{
+        font-size: 30px;
+    }
+    .why-chose-saena .chose-heading h2{
+        font-size: 35px;
+        letter-spacing: 4px;
+        border: 4px solid;
+    }
+    .sub-heading h4{
+        font-size: 35px;
+        letter-spacing: 4px;
+        border: 4px solid;
+    }
+    .follow .follow-left h2{
+        font-size: 35px;
+        border: 4px solid;
+        letter-spacing: 4px;
+    }
+    .follow .follow-right h2{
+        font-size: 35px;
+        letter-spacing: 4px;
+        border: 4px solid;
+    }
+    .carousel-title h2{
+        font-size: 30px;
+        border: 4px solid;
+        letter-spacing: 4px;
+    }
+}
+@media(min-width:1360px){
+    .container1{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
